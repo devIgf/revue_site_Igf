@@ -32,7 +32,7 @@ export default function Clients() {
           {partners.map((logo, i) => (
             <div
               key={i}
-              className="mx-6 h-14 w-40 flex items-center justify-center"
+              className="mx-6 w-40 flex items-center justify-center"
             >
               <img
                 src={logo}

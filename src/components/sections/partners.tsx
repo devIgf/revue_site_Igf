@@ -22,7 +22,7 @@ export default function Partners() {
             image={sageLogo}
           />
           <PartnersCard
-            description="Partenaire officiel d’Odoo, IGF accompagne les entreprises dans l’intégration personnalisée de ses modules : CRM, ventes, comptabilité, RH, projets, fabrication, support, etc., pour une mise en œuvre fluide et efficace du système ERP."
+            description="Partenaire officiel d'Odoo, IGF accompagne les entreprises dans l'intégration personnalisée de ses modules : CRM, ventes, comptabilité, RH, projets, fabrication, support, etc., pour une mise en œuvre fluide et efficace du système ERP."
             image={odooLogo}
           />
         </div>
