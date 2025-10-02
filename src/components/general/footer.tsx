@@ -88,6 +88,7 @@ export default function Footer() {
               <a
                 className="flex items-center justify-center text-indigo-500 transition hover:text-igf-accent"
                 href="https://www.instagram.com/igf_sarl/"
+                target="_blank"
                 aria-label="Instagram"
               >
                 <FontAwesomeIcon
@@ -100,6 +101,7 @@ export default function Footer() {
               <a
                 className="flex items-center justify-center text-indigo-500 transition hover:text-igf-accent"
                 href="https://www.linkedin.com/company/igf/"
+                target="_blank"
                 aria-label="LinkedIn"
               >
                 <svg
@@ -116,6 +118,7 @@ export default function Footer() {
               <a
                 className="flex items-center justify-center text-indigo-500 transition hover:text-igf-accent"
                 href="https://x.com/igf_sarl"
+                target="_blank"
                 aria-label="X (formerly Twitter)"
               >
                 <svg
@@ -133,6 +136,7 @@ export default function Footer() {
                 className="flex items-center justify-center text-indigo-500 transition hover:text-igf-accent"
                 href="https://www.facebook.com/igf.sarl/"
                 aria-label="Facebook"
+                target="_blank"
               >
                 <svg
                   className="h-6 w-6 fill-current"

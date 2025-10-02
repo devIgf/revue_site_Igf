@@ -1,5 +1,8 @@
 import TeamMemberCard from "../sub-part/team-member";
 import placeholderImage from "../../assets/hero-image-01.jpg";
+import Diop from "../../assets/Diop.jpeg";
+import Moussa from "../../assets/Moussa.jpeg";
+import Juste from "../../assets/juste.jpg";
 import RevealOnScroll from "../sub-part/RevealOnScroll";
 import logo from "../../assets/logo.png";
 import Marquee from "react-fast-marquee";
@@ -18,20 +21,29 @@ export default function Team() {
           {/* Marquee */}
           <div className="pt-10">
             <Marquee gradient={true} speed={40} pauseOnHover>
-              <div className="mx-4 w-[300px]">
+              <div className="mx-4 w-[300px] h-[300px] ">
                 <TeamMemberCard
-                  name="Andalla Ndiaye"
-                  role="Consultant senior et formateur"
-                  image={placeholderImage}
+                  name="Doudou Diop"
+                  role="Directeur Général"
+                  image={Diop}
                   facebookUrl="https://www.facebook.com/andalla13"
                   linkedinUrl="https://www.linkedin.com/in/andalla-ndiaye-16a84a212"
                 />
               </div>
 
+              <div className="mx-4 h-[300px] w-[300px] ">
+                <TeamMemberCard
+                  name="Moussa Gueye"
+                  role="Responsable IT"
+                  image={Moussa}
+                  linkedinUrl="https://linkedin.com"
+                />
+              </div>
+
               <div className="mx-4 w-[300px]">
                 <TeamMemberCard
-                  name="Jane Doe"
-                  role="Développeuse Frontend"
+                  name="Binta Diallo"
+                  role="Assistante de direction"
                   image={placeholderImage}
                   linkedinUrl="https://linkedin.com"
                 />
@@ -39,18 +51,17 @@ export default function Team() {
 
               <div className="mx-4 w-[300px]">
                 <TeamMemberCard
-                  name="John Smith"
-                  role="Chef de projet"
+                  name="Modou Diagne"
+                  role="Responsable Commercial"
                   image={placeholderImage}
                   linkedinUrl="https://linkedin.com"
                 />
               </div>
-
-              <div className="mx-4 w-[300px]">
+              <div className="mx-4  h-[300px] w-[300px]">
                 <TeamMemberCard
-                  name="John Smith"
-                  role="Chef de projet"
-                  image={placeholderImage}
+                  name="Juste Monace"
+                  role="Responsable projet"
+                  image={Juste}
                   linkedinUrl="https://linkedin.com"
                 />
               </div>

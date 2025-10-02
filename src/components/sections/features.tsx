@@ -146,7 +146,7 @@ export default function Features() {
             popoverText="Formations sur mesure pour tirer le meilleur de vos outils."
           />
           <FeatureCardHover
-            title="Installation"
+            title="Assistance RH"
             image={installation}
             popoverText="Mise en place et configuration de vos systèmes en toute sécurité."
           />
