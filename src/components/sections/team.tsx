@@ -59,8 +59,8 @@ export default function Team() {
               </div>
               <div className="mx-4  h-[300px] w-[300px]">
                 <TeamMemberCard
-                  name="Juste Monace"
-                  role="Responsable projet"
+                  name="Juste Amour"
+                  role="Responsable projets"
                   image={Juste}
                   linkedinUrl="https://linkedin.com"
                 />
