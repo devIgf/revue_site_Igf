@@ -7,7 +7,7 @@ interface PartnersCardProps {
 
 const PartnersCard: React.FC<PartnersCardProps> = ({ description, image }) => {
   return (
-    <div className="p-4 rounded-lg shadow-md border-4 transition duration-200 hover:scale-105 hover:border-igf-accent w-full max-w-xl flex flex-col items-center text-center">
+    <div className="p-4 rounded-lg shadow-md border-4 transition duration-200 hover:scale-105 hover:border-igf-accent w-[90%] max-w-xl flex flex-col items-center text-cente  ">
       <img
         src={image}
         alt="Partner logo"

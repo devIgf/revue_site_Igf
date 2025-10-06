@@ -1,20 +1,22 @@
 import RevealOnScroll from "../sub-part/RevealOnScroll";
 import logo from "../../assets/logo.png";
+import LogoIgf from "../logoIgf/IgfLogo";
 
 export default function Map() {
   return (
     <RevealOnScroll>
-      <section id="emplacement" className="w-full section-spacing">
+      <section id="emplacement" className="w-full pt-10">
         <div className="max-w-6xl mx-auto px-4">
           <div className="mb-12 text-center">
             <h2 className="text-igf-primary text-3xl font-bold my-4 font-heading flex flex-col items-center">
-              <img
+              {/* <img
                 src={logo}
                 alt="Cruip Logo"
-                width={60}
-                height={36}
+                width={120}
+                height={96}
                 className="mb-2"
-              />
+              /> */}
+              <LogoIgf />
               Emplacement
             </h2>
           </div>

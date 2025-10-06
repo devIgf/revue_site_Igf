@@ -1,5 +1,6 @@
 import RevealOnScroll from "../sub-part/RevealOnScroll";
 import logo from "../../assets/logo.png";
+import LogoIgf from "../logoIgf/IgfLogo";
 import installation from "../../assets/installation.jpg";
 import informatique from "../../assets/informatique.jpg";
 import finance from "../../assets/finance.jpg";
@@ -97,10 +98,11 @@ export default function Features() {
     <RevealOnScroll>
       <section
         id="features"
-        className="section-spacing text-center overflow-hidden"
+        className=" text-center overflow-hidden pt-10"
       >
         <h2 className="text-igf-primary text-3xl font-bold mb-8 font-heading flex flex-col items-center">
-          <img src={logo} alt="Cruip Logo" width={60} height={36} />
+          {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */}
+          <LogoIgf />
           Nos produits
         </h2>
 

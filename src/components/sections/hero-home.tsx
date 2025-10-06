@@ -4,7 +4,7 @@ export default function HeroHome() {
   return (
     <section
       id="apropos"
-      className="mx-auto max-w-6xl px-4 sm:px-6 pt-16 pb-16 flex flex-col md:flex-row justify-center items-center gap-6"
+      className="mx-auto pt-16 flex flex-wrap md:flex-row justify-center items-center gap-6"
     >
       {/* Card */}
       <div
@@ -17,9 +17,9 @@ export default function HeroHome() {
         <p className="font-sans text-center">
           IGF est une entreprise informatique partenaire agréé Sage et
           fournisseur de solutions Odoo. Nous proposons des services complets :
-          gestion d’entreprise, développement de logiciels sur mesure, paie,
+          gestion d'entreprise, développement de logiciels sur mesure, paie,
           comptabilité, RH, et formation. Notre équipe accompagne nos clients
-          dans l’intégration comptable, le développement web et mobile, et la
+          dans l'intégration comptable, le développement web et mobile, et la
           mise en place de solutions cloud sécurisées avec assistance en temps
           réel.
         </p>

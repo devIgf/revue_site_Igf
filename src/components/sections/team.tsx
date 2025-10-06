@@ -5,16 +5,18 @@ import Moussa from "../../assets/Moussa.jpeg";
 import Juste from "../../assets/juste.jpg";
 import RevealOnScroll from "../sub-part/RevealOnScroll";
 import logo from "../../assets/logo.png";
+import LogoIgf from "../logoIgf/IgfLogo";
 import Marquee from "react-fast-marquee";
 
 export default function Team() {
   return (
     <RevealOnScroll>
-      <section id="equipe" className="section-spacing">
+      <section id="equipe" className="pt-10">
         <div className="mx-auto max-w-screen-xl px-4 sm:px-6">
           {/* Section header */}
           <h2 className="text-igf-primary text-3xl font-bold my-4 text-center font-heading flex flex-col items-center">
-            <img src={logo} alt="Cruip Logo" width={60} height={36} />
+            {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */}
+            <LogoIgf />
             L'équipe
           </h2>
 
@@ -43,7 +45,7 @@ export default function Team() {
               <div className="mx-4 w-[300px]">
                 <TeamMemberCard
                   name="Binta Diallo"
-                  role="Assistante de direction"
+                  role="assistante administrative"
                   image={placeholderImage}
                   linkedinUrl="https://linkedin.com"
                 />
@@ -52,7 +54,7 @@ export default function Team() {
               <div className="mx-4 w-[300px]">
                 <TeamMemberCard
                   name="Modou Diagne"
-                  role="Responsable Commercial"
+                  role="Responsable projet Odoo"
                   image={placeholderImage}
                   linkedinUrl="https://linkedin.com"
                 />
