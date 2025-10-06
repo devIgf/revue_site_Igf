@@ -170,7 +170,7 @@ export default function Features() {
                 <li key={i} className="flex items-start w-full">
                   <span className="w-2 h-2 bg-igf-accent rounded-full mt-2 mr-2 flex-shrink-0" />
                   <span className={`w-full`}>
-                    {title && <span className="font-semibold">{title} </span>}
+                    {title && <span className="font-semibold uppercase">{title} </span>}
                     {description}
                   </span>
                 </li>

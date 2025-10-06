@@ -1,4 +1,5 @@
 import HeroHome from "./components/sections/hero-home";
+import MyHero from "./components/sections/myHeror";
 import Features from "./components/sections/features";
 import Team from "./components/sections/team";
 import Footer from "./components/general/footer";
@@ -12,10 +13,10 @@ function App() {
     <>
       <Mynavbar />
       <main className="pt-[80px]">
-        <HeroHome />
+        <MyHero />
         <Partners />
-        <Clients />
         <Features />
+        <Clients />
         <Team />
         <Map />
       </main>

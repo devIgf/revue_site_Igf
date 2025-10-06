@@ -54,7 +54,7 @@ export default function Team() {
               <div className="mx-4 w-[300px]">
                 <TeamMemberCard
                   name="Modou Diagne"
-                  role="Responsable projet Odoo"
+                  role="Chargé projet Odoo"
                   image={placeholderImage}
                   linkedinUrl="https://linkedin.com"
                 />
@@ -62,7 +62,7 @@ export default function Team() {
               <div className="mx-4  h-[300px] w-[300px]">
                 <TeamMemberCard
                   name="Juste Amour"
-                  role="Responsable projets"
+                  role="Responsable du suivi de projet"
                   image={Juste}
                   linkedinUrl="https://linkedin.com"
                 />
