@@ -38,17 +38,16 @@ export default function Clients() {
   ];
   return (
     <RevealOnScroll>
-      <section className="h-full pt-16 transition-transform duration-200 hover:scale-105  max-w-7xl mx-auto">
+      <section className="h-full backdrop-blur-md pt-32 transition-transform duration-200 max-w-7xl mx-auto">
         <h2 className="text-igf-primary text-center text-3xl pb-5 font-bold font-heading flex flex-col items-center">
-          {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */} 
           <LogoIgf />
           Ils nous font confiance
         </h2>
-        <Marquee gradient={false} speed={40}>
+        <Marquee gradient={false} speed={40} pauseOnHover className="py-5">
           {partners.map((logo, i) => (
             <div
               key={i}
-              className="mx-6 pt-5 w-40 flex items-center justify-center"
+              className="mx-6 w-40 h-28 flex items-center justify-center"
             >
               <img
                 src={logo}

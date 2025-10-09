@@ -10,7 +10,7 @@ export default function Partners() {
     <RevealOnScroll>
       <section
         id="partenaires"
-        className="mx-auto pt-16 flex flex-wrap max-w-6xl md:flex-row justify-center items-center gap-6"
+        className="mx-auto pt-32 flex flex-wrap backdrop-blur-md max-w-6xl md:flex-row justify-center items-center gap-6"
       >
         <h2 className="text-igf-primary text-center text-3xl font-bold pb-12 font-heading flex flex-col items-center">
           {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */}

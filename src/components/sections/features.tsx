@@ -98,7 +98,7 @@ export default function Features() {
     <RevealOnScroll>
       <section
         id="features"
-        className=" text-center overflow-hidden pt-10"
+        className="backdrop-blur-md text-center overflow-hidden pt-32"
       >
         <h2 className="text-igf-primary text-3xl font-bold mb-8 font-heading flex flex-col items-center">
           {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */}
