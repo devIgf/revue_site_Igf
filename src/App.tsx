@@ -12,12 +12,12 @@ function App() {
   return (
     <>
       <Mynavbar />
-      <main className="pt-[80px]">
+      <main className="backdrop-blur-md py-[80px]">
         <MyHero />
         <Partners />
         <Features />
         <Clients />
-        <Team />
+        {/* <Team /> */}
         <Map />
       </main>
       <Footer />

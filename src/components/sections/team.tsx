@@ -11,8 +11,8 @@ import Marquee from "react-fast-marquee";
 export default function Team() {
   return (
     <RevealOnScroll>
-      <section id="equipe" className="pt-10">
-        <div className="mx-auto max-w-screen-xl px-4 sm:px-6">
+      <section id="equipe" className="backdrop-blur-md">
+        <div className="mx-auto max-w-screen-xl px-4 pt-32 sm:px-6">
           {/* Section header */}
           <h2 className="text-igf-primary text-3xl font-bold my-4 text-center font-heading flex flex-col items-center">
             {/* <img src={logo} alt="Cruip Logo" width={120} height={96} /> */}

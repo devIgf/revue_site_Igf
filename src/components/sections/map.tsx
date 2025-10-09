@@ -5,17 +5,10 @@ import LogoIgf from "../logoIgf/IgfLogo";
 export default function Map() {
   return (
     <RevealOnScroll>
-      <section id="emplacement" className="w-full pt-10">
-        <div className="max-w-6xl mx-auto px-4">
+      <section id="emplacement" className="w-full pt-32 backdrop-blur-md">
+        <div className="max-w-6xl mx-auto px-4 pt-10 sm:px-6 lg:px-8">
           <div className="mb-12 text-center">
             <h2 className="text-igf-primary text-3xl font-bold my-4 font-heading flex flex-col items-center">
-              {/* <img
-                src={logo}
-                alt="Cruip Logo"
-                width={120}
-                height={96}
-                className="mb-2"
-              /> */}
               <LogoIgf />
               Emplacement
             </h2>

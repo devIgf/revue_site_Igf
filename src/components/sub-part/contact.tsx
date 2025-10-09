@@ -16,7 +16,7 @@ const Contacts: React.FC = () => {
         className="flex items-center gap-2 hover:text-igf-accent"
       >
         <FontAwesomeIcon icon={faPhone} />
-        33 867 38 84
+        33 846 12 72
       </a>
 
       {/* Email */}

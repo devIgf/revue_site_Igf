@@ -64,28 +64,6 @@ const TeamMemberCard: React.FC<TeamMemberCardProps> = ({
         <h3 className="text-white text-xl font-semibold">{name}</h3>
         <p className="text-indigo-200/80 text-sm">{role}</p>
       </div>
-
-      {/* Icônes des réseaux */}
-      {/* <div className="p-6 text-center">
-        <div className="flex justify-center flex-wrap gap-3">
-          {socialIcons.map(({ key, icon }) => {
-            const url = urls[key];
-            return (
-              url && (
-                <a
-                  key={key}
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-white bg-gradient-to-br from-green-400 to-blue-500 w-9 h-9 flex items-center justify-center rounded-md hover:scale-110 transition"
-                >
-                  <FontAwesomeIcon icon={icon} size="sm" />
-                </a>
-              )
-            );
-          })}
-        </div>
-      </div> */}
     </div>
   );
 };
